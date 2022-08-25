@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 700px;
+    height: 300px;
+    margin: 100px;
+    padding: 30px;
+    background-color: #D6D3C0;
+    border: 5px solid #4F2F20;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+p, button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: 'Original Surfer', cursive;
+}
+
+button{
+    border-style: none;
+    color: #7B655A;
+    font-size: large;
+    background-color: #D6D3C0;
+    font-weight: bolder;
+}
